@@ -52,11 +52,12 @@ async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     elif text == "➕ شارژ حساب":
         await update.message.reply_text(
-            "💳 برای شارژ حساب:\n\n"
-            "به کارت زیر واریز کن:\n"
-            "1234-5678-9012-3456\n\n"
-            "بعد عکس رسید رو بفرست 📩"
-        )
+    "💳 برای شارژ حساب:\n\n"
+    "به کارت زیر واریز کن:\n"
+    "6037-9915-5454-8531\n"
+    "رسول فیضی زاده\n\n"
+    "بعد عکس رسید رو بفرست 📩"
+)
 
     elif text == "📞 پشتیبانی":
         await update.message.reply_text("@webnet19_Support")
